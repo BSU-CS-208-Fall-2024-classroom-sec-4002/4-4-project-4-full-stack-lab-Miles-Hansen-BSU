@@ -1,3 +1,22 @@
+/*
 body{
-    background-color: hotpink;
+    background-color: rgb(199, 84, 142);
+    
+    background: linear-gradient(180deg, rgba(34,72,195,1) 0%, rgba(45,237,253,1) 100%);
+    border-radius: 7px;
+    border-color: green;
+    background: linear-gradient(160deg, rgb(86, 150, 27) 0%, rgb(177, 136, 42) 100%);
+}
+    */
+body{
+    background: rgb(34,72,195);
+}
+h3{
+    color: rgb(241, 98, 125);
+}
+
+#gridbox {
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 5px 13px;
 }
